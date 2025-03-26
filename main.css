@@ -85,6 +85,24 @@ header {
     background: #4e4e4e;
     color: white;
 }
+
+.featured-cars {
+    text-align: center;
+    padding: 20px;
+    background: #f9f9f9;
+}
+  
+.featured-cars .cars-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.featured-cars .cars-container img {
+    width: 400px;
+    border-radius: 50px;
+}
   
 .contact {
     padding: 20px;
